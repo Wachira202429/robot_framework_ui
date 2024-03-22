@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.4 on darwin)" generated="2024-02-04T17:07:14.536660" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase001" source="/Users/wachirar/Documents/Learning Automation/UI/robot_ui/testcases.robot/testcase001.robot">
+<test id="s1-t1" name="TC-01 Verify Register success" line="10">
+<kw name="Open website" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-04T17:07:14.746365" level="INFO">Opening browser 'chrome' to base url 'https://www.gconhub.com/'.</msg>
+<arg>https://www.gconhub.com/</arg>
+<arg>chrome</arg>
+<arg>options=add_experimental_option("detach", True)</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-04T17:07:14.746014" elapsed="4.901400"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>0.5s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-02-04T17:07:19.648621" elapsed="0.000986"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-02-04T17:07:19.649981" elapsed="0.914151"/>
+</kw>
+<status status="PASS" start="2024-02-04T17:07:14.744371" elapsed="5.820007"/>
+</kw>
+<status status="PASS" start="2024-02-04T17:07:14.743202" elapsed="5.821611"/>
+</test>
+<status status="PASS" start="2024-02-04T17:07:14.539817" elapsed="6.025659"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testcase001">Testcase001</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-04T17:07:14.738396" level="WARN">Imported resource file '/Users/wachirar/Documents/Learning Automation/UI/robot_ui/variables.robot/variables.robot' is empty.</msg>
+</errors>
+</robot>

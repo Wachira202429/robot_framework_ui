@@ -1,0 +1,7 @@
+1707038492069	geckodriver	INFO	Listening on 127.0.0.1:50615
+1707038492273	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/j3/zt6pd1ss31bg94b7cpkkr1zh0000gn/T/rust_mozprofileIV68qy"
+2024-02-04 16:21:33.074 firefox[86152:2250705] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-04 16:21:38.487 firefox[86152:2250705] AuthorizationCopyRights failed! NSOSStatusErrorDomain / -60006
+2024-02-04 16:21:39.196 firefox[86511:2251922] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+WebDriver BiDi listening on ws://127.0.0.1:50616
+DevTools listening on ws://127.0.0.1:50616/devtools/browser/3f107cc9-1044-4d7b-9411-fd54b4d5a7d8
